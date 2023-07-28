@@ -8,25 +8,36 @@
 </p>
 
 ## Sobre LaraVueAuth
+
 Sistema de autenticacion basica usando laravel9 y VueJs v3.
 
 ## Clonar el proyecto
+
 https://github.com/Ramboxp/laraVueAuth.git
 
 ## Configurar archivo de variables de entorno
 
+Debe de cambiar el nombre al archivo .env.example a .env y configurar name de su base de datos y demas prams.
+
 ## Crar DB pra hacer las migraciones
+
 Crear una base de datos ya sean en postgres,mysql, etc , configurar los parametros del .env de acuerdo a la eleccion realizada.
+
 ### Correr migraciones
+
 php artisan migrate
-  
+
 ## Instalar las dependencias
- composer install 
- npm install
+
+composer install
+npm install
 
 ## Ejecutar el server de node
+
 npm run dev
 
 ## Ejecutar el server de laravel
- php artisan serve
 
+php artisan serve
+
+### Thanks
