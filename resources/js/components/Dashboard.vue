@@ -7,7 +7,7 @@
                         <h3>Dashboard</h3>
                     </div>
                     <div class="card-body">
-                        <p class="mb-0">Haz hecho login como <b>{{ user.email }}</b></p>
+                        <p class="mb-0">You have logged in as: <b>{{ user.email }}</b></p>
                     </div>
                 </div>
             </div>
