@@ -8,32 +8,25 @@
 </p>
 
 ## Sobre LaraVueAuth
-Do you neeed:
-PHP^8.0
-Laravel^9.0
-mysql
-Vue3
+Sistema de autenticacion basica usando laravel9 y VueJs v3.
 
 ## Clonar el proyecto
-
 https://github.com/Ramboxp/laraVueAuth.git
 
+## Configurar archivo de variables de entorno
+
 ## Crar DB pra hacer las migraciones
+Crear una base de datos ya sean en postgres,mysql, etc , configurar los parametros del .env de acuerdo a la eleccion realizada.
+### Correr migraciones
+php artisan migrate
+  
+## Instalar las dependencias
+ composer install 
+ npm install
 
-### Premium Partners
-    
-## Contributing
+## Ejecutar el server de node
+npm run dev
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Ejecutar el server de laravel
+ php artisan serve
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
